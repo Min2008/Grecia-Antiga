@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+   font-family: "Poetsen One", sans-serif;
+}
+
+body {
+    background-image: url("cultura.png");
+    background-position: center center;
+    background-size: cover;
+ }
+ header {
+   background-color: #001424;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 20px;
+   font-family: "Poetsen One", sans-serif;
+   border-radius: 10px;
+ }
+ p {
+   font-family: "Poetsen One", sans-serif;
+    color: #000000;
+ }
+
+ .text-container {
+    flex: 1;
+    text-align: justify;
+    align-items: center;
+ }
+
+ div.polaroid-1 {
+   width: 35%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin: 10px;
+}
+
+div.polaroid-2 {
+   width: 30.5%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin: 10px;
+}
+ 
+ 
+div.container {
+   text-align: center;
+   padding: 10px 20px;
+}
+
+div {
+   display: inline-block;
+   text-align: center;
+}
+
+.legendas{
+   color:  #001424;
+   text-decoration: none;
+}
+
+.legendas:hover {
+   color: #a4deff;
+}
+
+a{
+   color:  #001424;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #a4deff;
+}

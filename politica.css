@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+    background-image: url("politica.png");
+    background-position: center center;
+    background-size: cover;
+    margin: 25px;
+ }
+ header {
+    background-color: #001424;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 10px;
+ }
+ p {
+   font-family: "Poetsen One", sans-serif;
+   color: #001424;
+ }
+ ul {
+   font-family: "Poetsen One", sans-serif;
+ }
+ .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+ }
+
+ .text-container {
+    flex: 1;
+ }
+
+a{
+   color:  #001424;
+   text-decoration: none;
+   font-family: "Poetsen One", sans-serif;
+} 
+
+a:hover {
+   color: #a4deff;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+
+body {
+    background-image: url("militar1.png");
+    background-position: center center;
+    background-size: cover;
+}
+
+header {
+    background-color: #001424;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+img {
+    width: 10%;
+}
+
+.img {
+    text-align: center;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    border: solid #ffffffd4;
+    padding: 20px;
+    margin: 20px;
+}
+ 
+th {
+    border: solid #ffffffd0;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+table {
+    width: 90%;
+    text-align: center;
+    background-color: #001424;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color:  #001424;
+    text-decoration: none;
+    padding: 10px;
+ }
+ 
+ a:hover {
+    color: #a4deff;
+ }

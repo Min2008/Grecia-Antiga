@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+
+body {
+    background-image: url("fundo.png");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    border: #FFFFFF;
+    border-style: solid;
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.47);
+    text-align: center;
+}
+
+
+.secundaria td {
+    color: #001424;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.primeira {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #001424;
+    border-radius: 20px;
+}
+
+
+th {
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+td {
+    padding: 15px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #a4deff;
+}
+
+
+.etec {
+    width: 15%;
+    height: 15%;
+    float: right;
+}
+
+a .etec:hover {
+    opacity: 0.5;
+}
+
+div.polaroid-1 {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+div.polaroid-2 {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+div.polaroid-3 {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+}
+
+.legendas{
+    color:  #001424;
+    text-decoration: none;
+}
+
+.legendas:hover {
+    color: #a4deff;
+}
+
+.referen{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.refer{
+    background-color: #001424;
+    padding: 10px;
+    border-radius: 20px;
+    float: right;
+    margin-right: 30px;
+}
+
+.referen:hover {
+    color: #001424;
+}
+
+.refer:hover{
+    background-color: #a4deff;
+}

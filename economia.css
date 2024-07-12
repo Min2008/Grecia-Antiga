@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+}
+
+body {
+    background-size: 100%;
+    background-position: absolute;
+    background-image: url("economia.png");
+}
+
+header {
+    background-color: #001424;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-family: "Poetsen One", sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p {
+    font-family: "Poetsen One", sans-serif;
+     color:#001424;
+  }
+ 
+.text-container {
+    display: flex;
+    justify-content: center;
+     text-align: center;
+     align-items: center;
+     margin: 10px;
+  }
+
+
+ 
+  div.polaroid-1 {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+ }
+ 
+ div.polaroid-2 {
+    width: 40%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+ }
+  
+  
+ div.container {
+    text-align: center;
+    padding: 10px 20px;
+ }
+ 
+ div {
+    display: inline-block;
+    text-align: center;
+ }
+ 
+ .legendas{
+    color:  #001424;
+    text-decoration: none;
+ }
+ 
+ .legendas:hover {
+    color: #a4deff;
+ }
+ 
+ a{
+    color:  #001424;
+    text-decoration: none;
+ }
+ 
+ a:hover {
+    color: #a4deff;
+ }
+ 
